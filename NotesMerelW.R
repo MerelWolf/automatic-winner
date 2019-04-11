@@ -89,8 +89,34 @@ library(printr)
 #'
 #'
 #'###################################################################################
-#' Lecture 5:
+#' Lecture 5:regular expression
+#' regular expressions are a way to write and easily search certain patterns
+#' it is like a coding language
+#'Explanation of all the symbols:https://docs.python.org/3/library/re.html
+#'Practice: https://regexone.com/l
+#'
 
+#'###################################################################################
+#' Lecture 7: pandoc
+#' open pandoc in R with document called main.docx
+#' git -> shell -> pandoc -h
+#' ls (=lsit of stuff in folger)
+#' pandoc main.tex -o main.docx --bibliography=AJjr.bib
+#' open main.doxc
+#' change latex to markdown:
+#' pandoc main.tex -o main.md
+#' overcome line breaks when transferring latex to markdown:
+#' pandoc main.tex -o main.md -wrap=none
+#' lmrout -> package to create html table of lme output
+#' github.com/jgm/pandoc-templates
+#' when you  need to record changes for example when editing an article
+#' github.com/palday/futhark -> git.diff.md.py you state a begin file and end file and this 
+#' function makes all changes bold
+#' count characters or word
+#' mdwc --title article.md
+#' mdwc --field=abstract article.md
+#' 
+#' example templates: github.com/palday/futhark
 
 
 
